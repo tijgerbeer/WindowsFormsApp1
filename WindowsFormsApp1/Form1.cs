@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
 		{
 			if (textBox1.Text == "") textBox1.Text = "Hello!"; else textBox1.Text = "";
 		}
-	}
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "") textBox1.Text = "Good bye!"; else textBox1.Text = "";
+        }
+    }
 }
