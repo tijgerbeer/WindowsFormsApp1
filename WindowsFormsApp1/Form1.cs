@@ -17,12 +17,12 @@ namespace WindowsFormsApp1
 			InitializeComponent();
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		private void buttonHello_Click(object sender, EventArgs e)
 		{
 			if (textBox1.Text == "") textBox1.Text = "Hello there!"; else textBox1.Text = "";
 		}
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonGoodbye_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "") textBox1.Text = "Good bye!"; else textBox1.Text = "";
         }
