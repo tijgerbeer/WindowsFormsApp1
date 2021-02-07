@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
         {
             if (textBox1.Text == "") textBox1.Text = "Good bye!"; else textBox1.Text = "";
         }
+
+        private void buttonStay_Click(object sender, EventArgs e)
+        {
+			if (textBox1.Text == "") textBox1.Text = "Stay"; else textBox1.Text = ""; 
+        }
     }
 }
